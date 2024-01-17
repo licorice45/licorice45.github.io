@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 24px 0;
   background-color: rgba(164,209,255,1);
   background-repeat: no-repeat;
   height: cover;
@@ -9,6 +9,14 @@ body {
 
 h1 {
 	font-size: 55px;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-size: 32px;
 	margin: 0;
 	padding: 0;
 	color: white;
@@ -41,7 +49,6 @@ div.sidebar {
 
 a:link, a:visited {
 	color: rgba(255, 255, 255, 1);
-	font-size: 45px;
 }
 
 div.body {
