@@ -17,7 +17,7 @@ h1 {
 
 h2 {
 	font-size: 32px;
-	margin: 0;
+	margin: 48px 0 0 0;
 	padding: 0;
 	color: white;
 	text-align: center;
@@ -28,7 +28,8 @@ p {
 	color: white;
 	text-align: center;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 24px;
+	margin: 12px;
 }
 
 ul {
@@ -47,6 +48,10 @@ div.sidebar {
 	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.4);
 }
 
+img.sidebar {
+	margin: 14px;
+}
+
 a:link, a:visited {
 	color: rgba(255, 255, 255, 1);
 }
@@ -54,5 +59,4 @@ a:link, a:visited {
 div.body {
 	float: right;
 	width: calc(100vw - 256px);
-
 }
