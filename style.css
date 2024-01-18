@@ -15,7 +15,7 @@ body {
   padding: 24px 0;
   background-color: rgba(164,209,255,1);
   background-repeat: no-repeat;
-  height: cover;
+  min-height: 96vh;
   background-image: linear-gradient(180deg, rgba(141,133,231,1) 0%, rgba(164,209,255,1) 100%);
 }
 
