@@ -28,6 +28,7 @@ h1 {
 }
 
 h2 {
+	border-style: none none solid none;
 	font-size: 32px;
 	margin: 48px 0 0 0;
 	padding: 0;
@@ -46,6 +47,10 @@ p {
 ul {
 	margin: 0;
 	padding: 0;
+}
+
+img {
+    vertical-align: middle;
 }
 
 div.sidebar {
