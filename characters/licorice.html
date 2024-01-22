@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Licorice⁴⁵ | Home</title>
+		<link rel="icon" type="image/x-icon" href="./favicon.ico">
+		<link rel="stylesheet" href="style.css">
+		
+		<meta property="og:site_name" content="Licorice's Site"/>
+		<meta property="og:title" content="Home"/>
+		<meta property="og:url" content="https://licorice45.github.io/"/>
+		<meta property="og:image" content="https://licorice45.github.io/icon.png"/>
+		<meta name="theme-color" content="#FFC45F"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+<body>
+
+<div class="body">
+	<img id="gallery" src="portrait Licorice Casual.png" onclick="costumeSwitch()" style="float:left;">
+	<h1>Licorice</h1>
+</div> 
+
+<script>
+let n = 0;
+let currentCostume = "portrait Licorice Casual.png";
+function costumeSwitch() {
+	n = n + 1;
+	switch (n) {
+		case 1:
+			currentCostume = "portrait Licorice Fancy.png";
+			break;
+		case 2:
+			currentCostume = "portrait Licorice Autumn.png";
+			break;
+		case 3:
+			currentCostume = "portrait Licorice Pajama.png";
+			break;
+		case 4:
+			n = 0;
+			currentCostume = "portrait Licorice Casual.png";
+			break;
+	}
+	document.getElementById("gallery").src = currentCostume;
+}
+</script>
+
+</body>
+</html>
