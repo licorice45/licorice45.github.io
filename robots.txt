@@ -1,0 +1,39 @@
+# ChatGPT
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# ChatGPT
+
+User-agent: GPTBot
+Disallow: /
+
+# Google Bard
+
+User-agent: Google-Extended
+Disallow: /
+
+# ByteDance
+
+User-agent: Bytespider
+Disallow: /
+
+# omgili
+
+User-agent: omgili
+Disallow: /
+
+# Siri Ai
+
+User-agent: Applebot
+Disallow: /
+
+# Alexa Ai
+
+User-agent: Amazonbot
+Disallow: /
+
+# Common Crawl
+
+User-agent: CCBot
+Disallow: /
