@@ -9,59 +9,50 @@
     font-weight: bold;
 }
 
+h1 {
+	text-align: center;
+	font-size: 2.2em;
+}
+
+p {
+	font-size: 1.3em;
+	margin: 4px;
+}
+
 body {
   font-family: Ubuntu, sans-serif;
-  background-color: rgba(164,209,255,1);
+  background-color: white;
   background-repeat: no-repeat;
-  background-image: linear-gradient(180deg, rgba(141,133,231,1) 0%, rgba(164,209,255,1) 100%);
+  background-image: linear-gradient(#E7E0F5, white);
 }
 
 div.body {
 	background-color: rgba(255, 255, 255, 0.85);
 	padding: 24px;
-	margin: 32px 10%;
+	margin: 16px;
 	background-image: linear-gradient(white, #E7E0F5);
-	border-radius: 100px;
-	box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
-	
-}
-
-
-h1 {
-	font-size: 3em;
-	margin: 0;
-	padding: 0;
-	color: #271101;
-	text-align: center;
-}
-
-h2 {
-	font-size: 2.25em;
-	margin: 12px 0 0 0;
-	padding: 0;
-	color: #271101;
-	text-align: center;
-}
-
-p {
-	color: #271101;
-	text-align: center;
-	font-size: 1.4em;
-	margin: 4px;
+	border-radius: 45px;
+	box-shadow: 0 0 20px 10px rgba(52,40,66,0.2);
+	image-rendering: pixelated;
 }
 
 img {
 	float: right;
-	background-color: rgba(255, 255, 255, 0.85);
-	padding: 24px;
-	background-image: linear-gradient(white, #E7E0F5);
-	border-radius: 100px;
-	box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
 }
 
-a {
-	font-size: 2.25em;
-	margin: 0 56px;
-	color: white;
+img.preview {
 	float: right;
+	padding: 24px;
+	background-image: linear-gradient(white, #F7F5FC);
+	border-radius: 100px;
+	box-shadow: 0 0 20px 10px rgba(52,40,66,0.1);
+}
+
+@media only screen and (max-width: 800px) {
+	img.preview {
+		float: left;
+		width: 100%;
+		padding: 0;
+		border-radius: 45px;
+	}
 }
