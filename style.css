@@ -10,151 +10,25 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-auto-flow: column;
-	box-sizing: border-box;
-  grid-template-columns: min(35%, 256px) auto;
-  font-family: Ubuntu, sans-serif;
-  margin: 0;
-  background-color: rgba(164,209,255,1);
-  background-repeat: no-repeat;
-  min-height: 96vh;
-  background-image: linear-gradient(180deg, #7462D4 0%, #8FC5FF 100%);
+	width: 100vw;
+	height: 100vh;
+	grid-auto-flow: column;
+	background-color: #7464D5;
+	font-family: Ubuntu, sans-serif;
 }
 
 h1 {
 	font-size: 3em;
-	margin: 0;
-	padding: 0;
 	color: white;
 	text-align: center;
 }
-
-h2 {
-	border-style: none none solid none;
-	font-size: 2.25em;
-	margin: 48px 0 0 0;
-	padding: 0;
-	color: white;
-	text-align: center;
-}
-
 
 p {
 	color: white;
 	text-align: center;
 	font-size: 1.4em;
-	margin: 12px;
 }
 
-nav.sidebar ul {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	display: inline-block;
-	text-align: center;
-}
-
-nav.sidebar ul a {
-	display: inline-block;
-	margin: 12px 0;
-}
-
-img {
-    vertical-align: middle;
-}
-
-nav.sidebar {
-	border-radius: 0 0 45px 0;
-	box-sizing: border-box;
-	height: 100vh;
-	background: rgb(39,17,1);
-	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.4);
-	overflow: auto;
-}
-
-nav.sidebar .icon {
-	max-width: 256px;
-	max-height: 256px;
-}
-
-img.sidebar {
-	box-sizing: border-box;
-	width: 100%;
-	height: 100%;
-}
-
-a:link, a:visited {
-	color: rgba(255, 255, 255, 1);
-}
-
-div.body {
-	padding: 24px 0;
-	overflow: auto;
-}
-
-
-table, th, td {
-	position: relative;
-	color: white;
-	text-align: center;
-}
-
-img.td {
-	height: auto;
-	width: 100%;
-	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.4);
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  z-index: 5;
-}
-
-td:hover .overlay {
-  opacity: 1;
-}
-
-.overlaytext {
-  color: white;
-  font-size: 3vw;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-@media only screen and (max-width: 800px) {
-	body {
-	  grid-template-columns: 100%;
-		padding-left: 48px;
-	}
-	nav.sidebar {
-		width: 304px;
-		padding-right: 48px;
-		position: fixed;
-		top: 0;
-		left: -256px;
-		border-radius: 0;
-		transition: left 0.25s, width 0.25s, padding-right 0.25s;
-	}
-	nav.sidebar:hover {
-		width: 256px;
-		padding-right: 0;
-		left: 0;
-	}
+a {
+	color: #FFC45F;
 }
