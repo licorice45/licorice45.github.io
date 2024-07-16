@@ -10,25 +10,46 @@
 }
 
 body {
-	width: 100vw;
-	height: 100vh;
 	grid-auto-flow: column;
-	background-color: #7464D5;
+	background-image: url(assets/sprites/clouds_pattern.png);
 	font-family: Ubuntu, sans-serif;
 }
 
+div.body {
+	max-width: 1000px;
+	border-radius: 45px;
+	margin: 45px auto 0px;
+	padding: 20px 10px;
+	background-image: linear-gradient(#75A9BF, #6C90AC);
+}
+
 h1 {
-	font-size: 3em;
-	color: white;
+	font-size: 2em;
 	text-align: center;
+	color: #DAF6FF;
 }
 
 p {
-	color: white;
 	text-align: center;
 	font-size: 1.4em;
+	color: #DAF6FF;
 }
 
 a {
-	color: #FFC45F;
+	color: WHITE;
+	text-decoration: underline #DAF6FF;
+}
+
+
+div.leg {
+	padding: 5px 0px;
+	background: #6B5460;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+}
+
+p.leg {
+	font-size: 1em;
 }
