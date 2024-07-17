@@ -1,17 +1,17 @@
 @font-face {
     font-family: Ubuntu;
-    src: url(assets/fonts/ubuntu/Ubuntu-R.ttf);
+    src: url(fonts/ubuntu/Ubuntu-R.ttf);
 }
 
 @font-face {
     font-family: Ubuntu;
-    src: url(assets/fonts/ubuntu/Ubuntu-B.ttf);
+    src: url(fonts/ubuntu/Ubuntu-B.ttf);
     font-weight: bold;
 }
 
 body {
 	grid-auto-flow: column;
-	background-image: url(assets/sprites/clouds_pattern.png);
+	background-image: url(sprites/clouds_pattern.png);
 	font-family: Ubuntu, sans-serif;
 }
 
@@ -41,7 +41,7 @@ a {
 }
 
 
-div.leg {
+footer.footer {
 	padding: 5px 0px;
 	background: #6B5460;
 	position: absolute;
@@ -50,6 +50,6 @@ div.leg {
 	width: 100vw;
 }
 
-p.leg {
+p.footer {
 	font-size: 1em;
 }
