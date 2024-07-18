@@ -24,7 +24,13 @@ div.body {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 2.25em;
+	text-align: center;
+	color: #DAF6FF;
+}
+
+h2 {
+	font-size: 1.75em;
 	text-align: center;
 	color: #DAF6FF;
 }
@@ -52,4 +58,23 @@ footer.footer {
 
 p.footer {
 	font-size: 1em;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 5px;
+  font-size: 1.4em;
+  color: #DAF6FF;
+  text-align: left;
+}
+
+img.showcase {
+  display: block;
+  width: auto;
+  max-height: 512px;
+  margin-left: auto;
+  margin-right: auto;
 }
