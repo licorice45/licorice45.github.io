@@ -5,3 +5,5 @@ url: https://licorice45.github.io
 collections:
   ocs:
     output: true
+  projects:
+    output: true

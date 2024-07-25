@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<p>Links: 
+{% for link in page.links %}
+	<a href="{{ link[1] }}">{{ link[0] }}</a>
+{% endfor %}
+</p>
+{{ content }}
+{% if page.images.size >= 1 %}
+<div class="gallery">
+	{% for image in page.images %}
+		<a href="{{ image }}"><img class="gallery" src="{{ image }}"></a>
+	{% endfor %}
+</div>
+{% endif %}
+<p><a href="/projects">Back</a></p>
