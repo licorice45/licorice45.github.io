@@ -1,6 +1,7 @@
 ---
 title: My Untalkative Pal Hero
 layout: project
+header: projects
 category: Game Jam Entry
 links: {"itch.io": "https://licorice45.itch.io/my-untalkative-pal-hero"}
 images: ["/assets/sprites/projects/ps_muph_1.png", "/assets/sprites/projects/ps_muph_2.png", "/assets/sprites/projects/ps_muph_3.png"]

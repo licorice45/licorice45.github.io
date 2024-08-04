@@ -1,6 +1,7 @@
 ---
 title: Cardamon
 layout: oc
+header: characters
 desc: Crazed Observer
 order: 2
 ---

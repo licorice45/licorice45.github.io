@@ -1,6 +1,7 @@
 ---
 title: Links
 layout: default
+header: links
 ---
 
 # Social
@@ -11,15 +12,21 @@ layout: default
 
 
 # Projects
+## General
 [itch.io](https://licorice45.itch.io/) - Check out my Games !
 
 
 [GitHub](https://github.com/licorice45) - Do not look at my code please
 
 
+## Modding
+[Modrinth](https://modrinth.com/user/licorice45)
+
+
+[Planet Minecraft](https://www.planetminecraft.com/member/licorice45/)
+
+
 # Misc
-
-
 [Art Fight](https://artfight.net/~licorice45) - Art Fight
 
 

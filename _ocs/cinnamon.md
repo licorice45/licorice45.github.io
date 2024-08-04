@@ -1,6 +1,7 @@
 ---
 title: Cinnamon
 layout: oc
+header: characters
 desc: Flora Brawler
 order: 1
 ---

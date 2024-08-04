@@ -1,6 +1,7 @@
 ---
 title: Licorice
 layout: oc
+header: characters
 pfp: /assets/sprites/ocs/pfp_licorice.png
 desc: My main Sona
 order: 0

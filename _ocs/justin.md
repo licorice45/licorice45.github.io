@@ -1,6 +1,7 @@
 ---
 title: Justin Case
 layout: oc
+header: characters
 pfp: /assets/sprites/ocs/pfp_justin.png
 desc: Total Surreal Survivalist Nerd
 order: 3
