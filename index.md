@@ -9,7 +9,7 @@ Welcome to my website !!\
 Please enjoy your stay,,
 
 
-# ![Navi](assets/sprites/navi.gif)
+# Navigation
 [Links](/links)
 
 [Projects](/projects)

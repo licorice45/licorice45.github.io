@@ -13,22 +13,50 @@ body {
 	grid-auto-flow: column;
 	background-image: url(sprites/clouds_pattern.png);
 	font-family: Ubuntu, sans-serif;
+	margin: 0;
 }
 
 div.body {
 	max-width: 1000px;
-	border-radius: 45px;
-	margin: 45px auto 90px;
-	padding: 20px 10px;
-	background-image: linear-gradient(#75A9BF, #6C90AC);
+	min-height: 100vh;
+	margin: -36px auto 0;
+	padding: 32px 10px 64px;
+	background-color: WHITE;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 header {
-	max-width: 1000px;
-	border-radius: 45px;
-	margin: 45px auto 45px;
-	padding: 20px 10px;
-	background-image: linear-gradient(#75A9BF, #6C90AC);
+	padding: 10px 40px;
+	background-color: #45242E;
+}
+
+img.header_pfp {
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	border-radius: 50%;
+	height: 128px;
+}
+
+.navbar-bg-container {
+	overflow: hidden;
+}
+
+.navbar-bg {
+	background-image: url(sprites/navbar.png);
+	height: 100px;
+	width: 125%;
+	animation: navbarscroll 3s linear infinite;
+}
+
+
+@keyframes "navbarscroll" {
+	0% {
+		transform: translate(0);
+	}
+	100% {
+		transform: translate(-74px);
+	}
 }
 
 div.gallery {
@@ -47,24 +75,21 @@ div.gallery {
 h1 {
 	font-size: 2.75em;
 	text-align: center;
-	color: #DAF6FF;
 }
 
 h2 {
 	font-size: 1.75em;
 	text-align: center;
-	color: #DAF6FF;
 }
 
 p {
 	text-align: center;
 	font-size: 1.4em;
-	color: #DAF6FF;
 }
 
 a {
-	color: WHITE;
-	text-decoration: underline #DAF6FF;
+	color: #F0DBA5;
+	text-decoration: underline #F0DBA5;
 }
 
 
@@ -88,7 +113,7 @@ table {
 th, td {
   padding: 5px;
   font-size: 1.4em;
-  color: #DAF6FF;
+  color: #946047;
   text-align: left;
 }
 
@@ -98,4 +123,10 @@ img.showcase {
   max-height: 512px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+	img.header_pfp {
+		display: none;
+	}
 }
