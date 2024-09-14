@@ -95,6 +95,16 @@ p {
 }
 
 a {
+	color: #D6B57D;
+	text-decoration: underline #D6B57D;
+}
+
+.navbar-item a {
+	color: #946047;
+	text-decoration: underline #946047;
+}
+
+.navbar-item a:hover {
 	color: #F0DBA5;
 	text-decoration: underline #F0DBA5;
 }
