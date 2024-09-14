@@ -26,6 +26,9 @@ header: links
 [Planet Minecraft](https://www.planetminecraft.com/member/licorice45/)
 
 
+# Donation
+[Ko-fi](https://ko-fi.com/licorice45) - Support me
+
 # Misc
 [Art Fight](https://artfight.net/~licorice45) - Art Fight
 
