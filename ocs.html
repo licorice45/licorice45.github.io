@@ -4,15 +4,8 @@ layout: default
 header: characters
 ---
 
-<table class="ocs">
+{% include itembox_style.html %}
 {% assign ocs = site.ocs | sort:"order" %}
 {% for oc in ocs %}
-	<tr>
-		<td rowspan="2" style="width:128px; vertical-align:bottom"><img src="/assets/sprites/ocs/pfp_{{ oc.title }}.png" width="128"></td>
-		<td><h2 style="text-align:left"><a href="{{ oc.url }}"> {{ oc.title }} </a></h2></td>
-	</tr>
-	<tr>
-		<td style="vertical-align:top">{{ oc.desc }}</td>
-	</tr>
+{% include itembox_ocs.html %}
 {% endfor %}
-</ul>

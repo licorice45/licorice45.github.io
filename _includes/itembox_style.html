@@ -1,0 +1,44 @@
+<style>
+div.itembox {
+	border-radius: 32px;
+	padding: 8px;
+	margin: 16px;
+	background-color: WHITE;
+	outline: 1px solid #946047;
+	display: grid;
+	cursor: pointer;
+	transition: background-color 0.1s, transform 0.2s;
+}
+
+div.itembox:hover {
+	background-color: #946047;
+	transform: scale(1.05,1.05);
+}
+
+.itembox:hover p {
+	color: WHITE;
+}
+
+.itembox:hover a {
+	color: #F0DBA5;
+}
+
+div.item1 {
+	grid-column: 1;
+	grid-row: 1 / span 2;
+}
+
+div.item2 {
+	grid-column: 2 / 5;
+}
+
+div.item3 {
+	grid-column: 2 / 5;
+	grid-row: 2;
+}
+
+.itembox-thumb {
+	border-radius: 24px;
+	height: 150px;
+}
+</style>

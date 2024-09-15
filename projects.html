@@ -4,14 +4,7 @@ layout: default
 header: projects
 ---
 
-<table class="ocs">
+{% include itembox_style.html %}
 {% for project in site.projects %}
-	<tr>
-		<td rowspan="2" style="width:128px; vertical-align:bottom"><img src="/assets/sprites/projects/banner_{{ project.title }}.png" width="128"></td>
-		<td><h2 style="text-align:left"><a href="{{ project.url }}"> {{ project.title }} </a></h2></td>
-	</tr>
-	<tr>
-		<td style="vertical-align:top">{{ project.category }}</td>
-	</tr>
+{% include itembox_projects.html %}
 {% endfor %}
-</ul>
