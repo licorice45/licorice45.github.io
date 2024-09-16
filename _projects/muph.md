@@ -4,6 +4,7 @@ layout: project
 header: projects
 category: Game Jam Entry
 year: 2023
+status: Complete
 links: {"itch.io": "https://licorice45.itch.io/my-untalkative-pal-hero"}
 images: ["/assets/sprites/projects/ps_muph_1.png", "/assets/sprites/projects/ps_muph_2.png", "/assets/sprites/projects/ps_muph_3.png"]
 ---

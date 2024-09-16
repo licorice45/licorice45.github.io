@@ -4,6 +4,7 @@ layout: project
 header: projects
 category: Game Jam Entry
 year: 2024
+status: Complete
 links: {"itch.io": "https://kojimkj.itch.io/skullsplitter-merge-of-the-macabre"}
 images: ["/assets/sprites/projects/ps_ssmotm_1.png", "/assets/sprites/projects/ps_ssmotm_2.png"]
 ---
