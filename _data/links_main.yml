@@ -1,0 +1,25 @@
+- name: Fediverse
+  hover: Social !
+  url: https://lethallava.land/@licorice45
+  image: https://upload.wikimedia.org/wikipedia/commons/9/93/Fediverse_logo_proposal.svg
+
+- name: Discord
+  hover: Chat !
+  url: https://discordapp.com/users/517004474582171668
+  image: https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a69f118df70ad7828d4_icon_clyde_blurple_RGB.svg
+
+- name: Ko-fi
+  hover: Donate !
+  url: https://ko-fi.com/licorice45
+  image: https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/64f1a9ddd0246590df69e9ef_ko-fi_logo_02-p-500.png
+
+- name: itch.io
+  hover: Games !
+  url: https://licorice45.itch.io/
+  image: /assets/sprites/links/itchio-logo.svg
+
+- name: GitHub
+  hover: Source code !
+  url: https://github.com/licorice45
+  image: /assets/sprites/links/github-mark.svg
+

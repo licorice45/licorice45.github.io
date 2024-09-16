@@ -66,6 +66,12 @@ img.header_pfp {
 	}
 }
 
+div.grid_container3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 0;
+}
+
 div.gallery {
 	overflow-x: scroll;
 	overflow-y: hidden;
