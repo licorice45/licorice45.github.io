@@ -2,8 +2,10 @@
   hover: Minecraft !
   url: https://modrinth.com/user/licorice45
   image: https://docs.modrinth.com/img/logo.svg
+  bgcolor: '#1A9F51'
 
 - name: Planet Minecraft
   hover: Minceraft !
   url: https://www.planetminecraft.com/member/licorice45/
   image: https://static.planetminecraft.com/files/avatar/3_1.png
+  bgcolor: '#0D74D3'
