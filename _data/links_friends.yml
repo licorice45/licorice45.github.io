@@ -1,0 +1,14 @@
+- name: Codist
+  url: https://imcodist.xyz/
+  image: /assets/sprites/links/codist.png
+  bgcolor: '#D34544'
+
+- name: Cmayk
+  url: https://cmayk.github.io/
+  image: /assets/sprites/links/cmayk.png
+  bgcolor: '#BC587E'
+
+- name: Driftini
+  url: https://driftini.github.io/
+  image: /assets/sprites/links/driftini.png
+  bgcolor: '#4B465C'

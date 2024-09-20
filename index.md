@@ -4,7 +4,8 @@ layout: default
 header: home
 ---
 {% include itembox_style.html %}
-<div class="panelbox">
+<div class="grid_container3">
+<div class="panelbox" style="grid-column: 1 / span 2;">
 	<p>Yahoy !!<br>
 	I'm <b>licorice45</b>, I can be considered an artist and wannabe programmer<br>
 	Also my lucky number is 45<br>
@@ -13,8 +14,13 @@ header: home
 	Welcome to my website !!</p>
 </div>
 
-<div class="itembox" onclick="location.href='/links';">
+<div class="itembox" onclick="location.href='/links';" style="grid-column: 1 / span 2;">
 	<div class="ib-item4"><p>Links to Socials & More</p></div>
+</div>
+
+<div style="grid-column: 3; grid-row: 1 / span 2; margin: auto;">
+	<img src="/assets/sprites/licorice_fall.png">
+</div>
 </div>
 
 # Check out my...
@@ -33,11 +39,13 @@ header: home
 	</div>
 </div>
 
-<!-- <div class="panelbox">
+<div class="panelbox">
 	<h2>Friend-sites !! :D</h2>
 	<div class="grid_container3">
-		<div class="itembox" onclick="location.href='https://imcodist.xyz/';" style="--c: #D34544;">
-			<div class="ib-item4"><p>Codist</p></div>
+		{% for link in site.data.links_friends %}
+		<div class="itembox" onclick="location.href='{{ link.url }}';" style="--c: {{ link.bgcolor }}; background-image: url({{ link.image }});">
+			<div class="ib-item4"><p><b>{{ link.name }}</b></p></div>
 		</div>
+		{% endfor %}
 	</div>
-</div> --> 
+</div>
