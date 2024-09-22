@@ -2,8 +2,8 @@
 title: Justin Case
 layout: oc
 header: characters
-pfp: /assets/sprites/ocs/pfp_justin.png
 desc: Total Surreal Survivalist Nerd
+metadata: {"Species": "Human", "Gender": "Male", "Height": "164cm"}
 order: 3
 ---
 Justin is a self aware but scaredy traveler with a knack for surviving ultra specific scenarios.

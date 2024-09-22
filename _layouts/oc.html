@@ -2,9 +2,22 @@
 layout: default
 header: Characters
 ---
-<h1>{{ page.title }}</h1>
-<a href="/assets/sprites/ocs/ref_{{ page.title }}.png">
-	<img class="showcase" src="/assets/sprites/ocs/ref_{{ page.title }}.png" style="max-width:1000px">
-</a>
-{{ content }}
+<div class="grid_container3">
+	<div style="grid-column: 1 / span 2;">
+		<h1>{{ page.title }}</h1>
+		{{ content }}
+	</div>
+	<div class="panelbox">
+		<p><b>{{ page.title }}</b></p>
+		<img src="/assets/sprites/ocs/pfp_{{ page.title }}.png" width="256px">
+		<div class="grid_container2">
+		{% for data in page.metadata %}
+		<p>{{ data[0] }}:</p> <p>{{ data[1] }}</p>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+
+<img class="showcase" src="/assets/sprites/ocs/ref_{{ page.title }}.png" style="max-width:768px">
+
 <p><a href="/ocs">Back</a></p>

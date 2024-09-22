@@ -74,6 +74,12 @@ img.header_pfp {
 	}
 }
 
+div.grid_container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0;
+}
+
 div.grid_container3 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -106,6 +112,7 @@ h2 {
 }
 
 p {
+	margin: 16px 0;
 	text-align: center;
 	font-size: 1.4em;
 }

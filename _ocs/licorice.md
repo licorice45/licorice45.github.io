@@ -2,8 +2,9 @@
 title: Licorice
 layout: oc
 header: characters
-pfp: /assets/sprites/ocs/pfp_licorice.png
 desc: My main Sona
+metadata: {"Species": "Human(?)", "Gender": "Any", "Height": "170cm"}
+gender: Any
 order: 0
 ---
 Very silly and indecisive, carefree person. Is very curious.

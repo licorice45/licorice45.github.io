@@ -3,6 +3,7 @@ title: Cinnamon
 layout: oc
 header: characters
 desc: Flora Brawler
+metadata: {"Species": "Corrupted Human", "Gender": "Any"}
 order: 1
 ---
 This brawler was hit by padparadscha corruption strengthening their legs and now trains [Licorice](/ocs/licorice) !
