@@ -1,4 +1,4 @@
-<div class="itembox" style="width:208px;height:208px;--c: {{ link.bgcolor }};" onclick="location.href='{{ link.url }}';">
+<div class="itembox" style="--c: {{ link.bgcolor }};" onclick="location.href='{{ link.url }}';" onauxclick="window.open('{{ link.url }}');">
 	<div class="ib-item4"><img class="itembox-thumb" src="{{ link.image }}" width="150"></div>
 	<div class="ib-item5 unhover"><p>{{ link.name }}</p></div>
 	<div class="ib-item5 hover"><p>{{ link.hover }}</p></div>

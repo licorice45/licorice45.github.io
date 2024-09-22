@@ -1,4 +1,4 @@
-<div class="itembox" onclick="location.href='{{ project.url }}';">
+<div class="itembox" onclick="location.href='{{ project.url }}';" onauxclick="window.open('{{ project.url }}');">
 	<div class="ib-item1"><img class="itembox-thumb" src="/assets/sprites/projects/banner_{{ project.title }}.png"></div>
 	<div class="ib-item2"><h2><a href="{{ project.url }}">{{ project.title }}</a></h2></div>
 	<div class="ib-item3"><p>{{ project.category }} • {{ project.year }}</p></div>

@@ -7,7 +7,7 @@
 - name: Discord
   hover: Chat !
   url: https://discordapp.com/users/517004474582171668
-  image: https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a69f118df70ad7828d4_icon_clyde_blurple_RGB.svg
+  image: /assets/sprites/links/discord-mark.svg
   bgcolor: '#38459E'
 
 - name: Ko-fi
