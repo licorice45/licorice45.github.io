@@ -91,12 +91,21 @@ div.gallery {
 	overflow-y: hidden;
 	height: 300px;
 	white-space: nowrap;
-	
 }
 
 .gallery {
 	float: none;
     height: 95%;
+}
+
+.infobox {
+	border-radius: 32px;
+	padding: 8px;
+	margin: 16px;
+	background-color: WHITE;
+	outline: 1px solid #946047;
+	max-width: 33%; 
+	float: right;
 }
 
 h1 {
@@ -170,8 +179,23 @@ img.showcase {
   margin-right: auto;
 }
 
+.mobile-span3 {
+	grid-column: 1 / span 2;
+}
+
 @media only screen and (max-width: 768px) {
+	.infobox {
+		max-width: 100%;
+		width: 65%;
+		float: none;
+		margin: 16px auto;
+	}
+	
 	.mobile-hide {
 		display: none;
+	}
+	
+	.mobile-span3 {
+		grid-column: 1 / span 3;
 	}
 }

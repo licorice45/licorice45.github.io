@@ -5,7 +5,7 @@ header: home
 ---
 {% include itembox_style.html %}
 <div class="grid_container3">
-<div class="panelbox" style="grid-column: 1 / span 2;">
+<div class="panelbox mobile-span3">
 	<p>Yahoy !!<br>
 	I'm <b>licorice45</b>, I can be considered an artist and wannabe programmer<br>
 	Also my lucky number is 45<br>
@@ -14,11 +14,11 @@ header: home
 	Welcome to my website !!</p>
 </div>
 
-<div class="itembox" onclick="location.href='/links';" onauxclick="window.open('/links');" style="grid-column: 1 / span 2;">
+<div class="itembox mobile-span3" onclick="location.href='/links';" onauxclick="window.open('/links');">
 	<div class="ib-item4"><p>Links to Socials & More</p></div>
 </div>
 
-<div style="grid-column: 3; grid-row: 1 / span 2; margin: auto;">
+<div class="mobile-hide" style="grid-column: 3; grid-row: 1 / span 2; margin: auto;">
 	<img src="/assets/sprites/licorice_fall.png">
 </div>
 </div>
