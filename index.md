@@ -23,6 +23,26 @@ header: home
 </div>
 </div>
 
+<p id="splash">"missingno"</p>
+<script>
+	const splash = [
+		"Removed Herobrine",
+		"I love Pesto mmm yummy",
+		"45",
+		"Yo, Angelo",
+		"You should watch Mob Psycho 100 rn",
+		"This site was made using notepad",
+		"Press THROW and then JUMP to throw Salmon Eggs further",
+		"Eh? Is that a... TURRÓN?!",
+		"Why are oranges called orange but apricots aren't called orange 🤯",
+		"I can't stop procrastinating, HELP",
+		"Searing Shells by Kojimkj, best stage"
+	];
+	
+	const rng = Math.floor(Math.random() * splash.length);
+	document.getElementById('splash').innerHTML = "\"" + splash[rng] + "\"";
+</script>
+
 # Check out my...
 <div class="grid_container3">
 	<div class="itembox" onclick="location.href='/projects/marzipan';" onauxclick="window.open('/projects/marzipan');">
