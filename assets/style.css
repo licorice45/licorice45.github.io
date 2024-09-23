@@ -10,6 +10,7 @@
 }
 
 body {
+	background-color: #F0DBA5;
 	grid-auto-flow: column;
 	background-image: url(sprites/clouds_pattern.png);
 	font-family: Ubuntu, sans-serif;
@@ -197,5 +198,21 @@ img.showcase {
 	
 	.mobile-span3 {
 		grid-column: 1 / span 3;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #4E3243;
+		background-image: url(sprites/clouds_pattern_dark.png);
+		color: WHITE;
+	}
+	
+	div.body {
+		background-color: BLACK;
+	}
+	
+	div.panelbox {
+		background-color: BLACK;
 	}
 }
