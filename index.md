@@ -36,7 +36,11 @@ header: home
 		"Eh? Is that a... TURRÓN?!",
 		"Why are oranges called orange but apricots aren't called orange 🤯",
 		"I can't stop procrastinating, HELP",
-		"Searing Shells by Kojimkj, best stage"
+		"Searing Shells by Kojimkj, best stage",
+		"Let the shackles be released!",
+		"I... am licorice",
+		"Awesome orb of awesomeness",
+		"Give me a drink, bartender"
 	];
 	
 	const rng = Math.floor(Math.random() * splash.length);
