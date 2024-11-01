@@ -40,7 +40,8 @@ header: home
 		"Let the shackles be released!",
 		"I... am licorice",
 		"Awesome orb of awesomeness",
-		"Give me a drink, bartender"
+		"Give me a drink, bartender",
+		"It's nearing the end, and you're deserve it"
 	];
 	
 	const rng = Math.floor(Math.random() * splash.length);

@@ -1,3 +1,9 @@
+- name: Bluesky
+  hover: Social !
+  url: https://bsky.app/profile/licorice45.bsky.social
+  image: /assets/sprites/links/bsky-mark.svg
+  bgcolor: '#0954BC'
+
 - name: Fediverse
   hover: Social !
   url: https://lethallava.land/@licorice45
@@ -13,8 +19,8 @@
 - name: Ko-fi
   hover: Donate !
   url: https://ko-fi.com/licorice45
-  image: https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/64f1a9ddd0246590df69e9ef_ko-fi_logo_02-p-500.png
-  bgcolor: '#0693C3'
+  image: /assets/sprites/links/kofi-symbol.png
+  bgcolor: '#72A5F2'
 
 - name: itch.io
   hover: Games !

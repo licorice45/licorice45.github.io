@@ -1,8 +1,8 @@
 - name: Modrinth
   hover: Minecraft !
   url: https://modrinth.com/user/licorice45
-  image: https://docs.modrinth.com/img/logo.svg
-  bgcolor: '#1A9F51'
+  image: /assets/sprites/links/modrinth-symbol.svg
+  bgcolor: '#006749'
 
 - name: Planet Minecraft
   hover: Minceraft !
