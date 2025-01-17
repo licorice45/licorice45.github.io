@@ -1,0 +1,14 @@
+<div class="grid_container2">
+	<div>
+		<h3>Traits</h3>
+		{% for trait in page.traits %}
+		<p>{{ trait }}</p>
+		{% endfor %}
+	</div>
+	<div>
+		<h3>Likes</h3>
+		{% for like in page.likes %}
+		<p><b>{{ like[0] }}:</b> {{ like[1] }}</p>
+		{% endfor %}
+	</div>
+</div>

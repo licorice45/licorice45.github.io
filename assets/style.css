@@ -121,9 +121,18 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
 p {
 	margin: 16px 0;
 	text-align: center;
+	font-size: 1.25em;
+}
+
+ul {
 	font-size: 1.25em;
 }
 
@@ -213,6 +222,10 @@ img.showcase {
 	}
 	
 	div.panelbox {
+		background-color: BLACK;
+	}
+	
+	.infobox {
 		background-color: BLACK;
 	}
 }
