@@ -1,3 +1,11 @@
+- name: Art Fight
+  hover: War !
+  url: https://artfight.net/~licorice45
+  image: /assets/sprites/links/artfight-logo.png
+  bgcolor: '#4389B7'
+
+
+
 - name: Modrinth
   hover: Minecraft !
   url: https://modrinth.com/user/licorice45
