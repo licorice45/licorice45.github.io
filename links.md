@@ -4,13 +4,13 @@ layout: default
 ---
 
 {% include itembox_style.html %}
-# Main
+## Main
 <div class="grid_container3">
 {% for link in site.data.links_main %}
 {% include itembox_links.html %}
 {% endfor %}
 </div>
-# Misc
+## Misc
 <div class="grid_container3">
 {% for link in site.data.links_misc %}
 {% include itembox_links.html %}

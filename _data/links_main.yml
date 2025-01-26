@@ -8,7 +8,7 @@
   hover: Social !
   url: https://lethallava.land/@licorice45
   image: https://upload.wikimedia.org/wikipedia/commons/9/93/Fediverse_logo_proposal.svg
-  bgcolor: '#946047'
+  bgcolor: '#F45E89'
 
 - name: Discord
   hover: Chat !
@@ -32,5 +32,5 @@
   hover: Source code !
   url: https://github.com/licorice45
   image: /assets/sprites/links/github-mark.svg
-  bgcolor: '#946047'
+  bgcolor: '#F45E89'
 
