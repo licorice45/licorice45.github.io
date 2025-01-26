@@ -1,6 +1,6 @@
 - name: characters
-  url: /ocs/
+  url: /ocs
   
   
 - name: projects
-  url: /projects/
+  url: /projects
