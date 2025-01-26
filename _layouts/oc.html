@@ -3,22 +3,17 @@ layout: default
 header: Characters
 ---
 <div class="infobox">
-	<p><b>{{ page.title }}</b></p>
+	<h3>{{ page.title }}</h3>
 	<img src="/assets/sprites/ocs/pfp_{{ page.title }}.png" width="100%">
 	<div class="grid_container3">
 		{% for data in page.metadata %}
-		<p style="align-self: center;">{{ data[0] }}:</p> <p style=" grid-column: span 2;">{{ data[1] }}</p>
+		<p style="align-self: center;"><b>{{ data[0] }}:</b></p> <p style=" grid-column: span 2;">{{ data[1] }}</p>
 		{% endfor %}
 	</div>
 </div>
 
 
-<div>
-	<h1>{{ page.title }}</h1>
-	{{ content }}
-</div>
+{{ content }}
 
 <h2>Reference Sheet</h2>
 <img class="showcase" src="/assets/sprites/ocs/ref_{{ page.title }}.png">
-
-<p><a href="/ocs">Back</a></p>

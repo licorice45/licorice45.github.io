@@ -1,26 +1,26 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-
-<div class="grid_container3">
+{% include itembox_style.html %}
+<div class="grid_container3 panelbox">
 	<p><b>Release year</b>: {{ page.year }}</p>
 	<p><b>Category</b>: {{ page.category }}</p>
 	<p><b>Status</b>: {{ page.status }}</p>
 </div>
-<div class="panelbox">
 {{ content }}
 {% if page.images.size >= 1 %}
 <div class="gallery">
 	{% for image in page.images %}
 		<a href="{{ image }}"><img class="gallery" src="{{ image }}"></a>
 	{% endfor %}
-</div>
 {% endif %}
-<p><b>Links</b>: 
+</div>
+<h2>Links</h2>
+<p>
 {% for link in page.links %}
-	<a href="{{ link[1] }}">{{ link[0] }}</a>
+	<div class="itembox" onclick="location.href='{{ link[1] }}';" onauxclick="window.open('{{ link[1] }}');">
+		<div class="ib-item4"><p>{{ link[0] }}</p></div>
+	</div>
 {% endfor %}
 </p>
 </div>
-<p><a href="/projects">Back</a></p>

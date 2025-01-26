@@ -1,7 +1,6 @@
 ---
 title: Links
 layout: default
-header: links
 ---
 
 {% include itembox_style.html %}

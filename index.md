@@ -1,27 +1,8 @@
 ---
 title: Home
 layout: default
-header: home
 ---
 {% include itembox_style.html %}
-<div class="grid_container3">
-<div class="panelbox mobile-span3">
-	<p>Yahoy !!<br>
-	I'm <b>licorice45</b>, I can be considered an artist and wannabe programmer<br>
-	Also my lucky number is 45<br>
-	I'm bad at writing descriptions<br>
-	<br>
-	Welcome to my website !!</p>
-</div>
-
-<div class="itembox mobile-span3" onclick="location.href='/links';" onauxclick="window.open('/links');">
-	<div class="ib-item4"><p>Links to Socials & More</p></div>
-</div>
-
-<div class="mobile-hide" style="grid-column: 3; grid-row: 1 / span 2; margin: auto;">
-	<img src="/assets/sprites/licorice_fall.png">
-</div>
-</div>
 
 <p id="splash">"missingno"</p>
 <script>
@@ -40,19 +21,38 @@ header: home
 		"Let the shackles be released!",
 		"I... am licorice",
 		"Awesome orb of awesomeness",
-		"Give me a drink, bartender",
-		"It's nearing the end, and you're deserve it"
+		"Give me a drink, bartender"
 	];
 	
 	const rng = Math.floor(Math.random() * splash.length);
-	document.getElementById('splash').innerHTML = "\"" + splash[rng] + "\"";
+	document.getElementById('splash').innerHTML = "<b>\"" + splash[rng] + "\"";
 </script>
 
-# Check out my...
+## About
+
+<div class="grid_container3">
+<div class="panelbox mobile-span3">
+	<p>Yahoy !!<br>
+	I'm <b>licorice45</b>, I can be considered an artist and wannabe programmer!<br>
+	This website's main purpose to provide quick access to my links, projects and more.<br>
+	<br>
+	Enjoy your stay !!</p>
+</div>
+
+<div class="itembox mobile-span3" onclick="location.href='/links';" onauxclick="window.open('/links');">
+	<div class="ib-item4"><p>Links to Socials & More</p></div>
+</div>
+
+<div class="mobile-hide" style="grid-column: 3; grid-row: 1 / span 2; margin: auto;">
+	<img src="/assets/sprites/licorice_fall.png">
+</div>
+</div>
+
+## Check out
 <div class="grid_container3">
 	<div class="itembox" onclick="location.href='/projects/marzipan';" onauxclick="window.open('/projects/marzipan');">
 		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/projects/banner_Marzipan.png"></div>
-		<div class="ib-item5"><p>Featured Project:<br><b>Marzipan</b></p></div>
+		<div class="ib-item5"><p><b>Featured Project</b><br>Marzipan</p></div>
 	</div>
 	<div class="itembox" onclick="location.href='/projects';" onauxclick="window.open('/projects');">
 		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/banner_projects.png"></div>
@@ -64,13 +64,12 @@ header: home
 	</div>
 </div>
 
-<div class="panelbox">
-	<h2>Friend-sites !! :D</h2>
-	<div class="grid_container3">
-		{% for link in site.data.links_friends %}
-		<div class="itembox" onclick="location.href='{{ link.url }}';" onauxclick="window.open('{{ link.url }}');" style="--c: {{ link.bgcolor }}; background-image: url({{ link.image }});">
-			<div class="ib-item4"><p><b>{{ link.name }}</b></p></div>
-		</div>
-		{% endfor %}
+
+## Friend-sites
+<div class="grid_container2">
+	{% for link in site.data.links_friends %}
+	<div class="itembox" onclick="location.href='{{ link.url }}';" onauxclick="window.open('{{ link.url }}');" style="--c: {{ link.bgcolor }}; background-image: url({{ link.image }});">
+		<div class="ib-item4"><p>{{ link.name }}</p></div>
 	</div>
+	{% endfor %}
 </div>

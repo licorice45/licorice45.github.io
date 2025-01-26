@@ -1,10 +1,10 @@
 <style>
 div.itembox {
-	border-radius: 32px;
+	border-radius: 45px;
 	padding: 8px;
 	margin: 16px;
 	background-color: WHITE;
-	outline: 1px solid var(--c, #946047);
+	border: 2px solid var(--c, #F45E89);
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 	cursor: pointer;
@@ -12,7 +12,7 @@ div.itembox {
 }
 
 div.itembox:hover {
-	background-color: var(--c, #946047);
+	background-color: var(--c, #F45E89);
 	transform: scale(1.05,1.05);
 }
 
@@ -33,7 +33,11 @@ div.hover {
 }
 
 .itembox:hover a {
-	color: #F0DBA5;
+	color: WHITE;
+}
+
+.itembox:hover b {
+	color: WHITE;
 }
 
 .itembox p {
@@ -47,6 +51,10 @@ div.ib-item1 {
 
 div.ib-item2 {
 	grid-column: 2;
+}
+
+div.ib-item2 h3 {
+	margin: 16px 0 0 0;
 }
 
 div.ib-item3 {
@@ -69,7 +77,7 @@ div.ib-item5 {
 }
 
 .itembox-thumb {
-	border-radius: 24px;
+	border-radius: 32px;
 	max-height: 150px;
 	max-width: 100%;
 }
