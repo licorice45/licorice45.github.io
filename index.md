@@ -51,15 +51,15 @@ layout: default
 ## Check out
 <div class="grid_container3">
 	<div class="itembox" onclick="location.href='/projects/marzipan';" onauxclick="window.open('/projects/marzipan');">
-		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/projects/banner_Marzipan.png"></div>
+		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/projects/thumbnail_Marzipan.png"></div>
 		<div class="ib-item5"><p><b>Featured Project</b><br>Marzipan</p></div>
 	</div>
 	<div class="itembox" onclick="location.href='/projects';" onauxclick="window.open('/projects');">
-		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/banner_projects.png"></div>
+		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/thumbnail_projects.png"></div>
 		<div class="ib-item5"><p>Other Projects</p></div>
 	</div>
 	<div class="itembox" onclick="location.href='/ocs';" onauxclick="window.open('/ocs');">
-		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/banner_ocs.png"></div>
+		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/thumbnail_ocs.png"></div>
 		<div class="ib-item5"><p>Original Characters</p></div>
 	</div>
 </div>
