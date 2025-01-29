@@ -3,7 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#FED39A">
-    <title>{{ page.title }} | licorice45</title>
+    
     <link rel="stylesheet" href="/assets/style.css">
+    
+    <title>{{ page.title }} | licorice45</title>
+    <meta name="theme-color" content="#FED39A">
+    
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:site_name" content="licorice45">
+    <meta property="og:description" content="{% if page.desc != null %}{{ page.desc }}{% else %}licorice45's website{% endif %}">
+    {% assign embed_image_oc_path = "/assets/sprites/ocs/pfp_" | append: page.title | append: ".png" %}
+	{% assign embed_image_oc = site.static_files | where: "path", embed_image_oc_path | first %}
+	{% assign embed_image_project_path = "/assets/sprites/projects/banner_" | append: page.title | append: ".png" %}
+	{% assign embed_image_project = site.static_files | where: "path", embed_image_project_path | first %}
+	{% if embed_image_oc %}
+		<meta property="og:image" content="{{ embed_image_oc_path }}">
+	{% elsif embed_image_project %}
+		<meta property="og:image" content="{{ embed_image_project_path }}">
+	{% else %}
+		<meta property="og:image" content="/assets/sprites/ocs/pfp_Licorice.png">
+	{% endif %}<meta property="og:image" content="">
   </head>

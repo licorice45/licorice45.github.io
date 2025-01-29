@@ -1,5 +1,6 @@
 ---
 title: Links
+desc: Quick access collection of links
 layout: default
 ---
 
