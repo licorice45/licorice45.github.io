@@ -2,6 +2,7 @@
 title: My Untalkative Pal Hero
 layout: project
 header: projects
+desc: My first Game Jam entry
 category: Game Jam Entry
 year: 2023
 status: Complete
