@@ -5,7 +5,7 @@ header: Characters
 <div class="infobox">
 	<h3>{{ page.title }}</h3>
 	<img src="/assets/sprites/ocs/thumbnail_{{ page.title | downcase }}.png" width="100%">
-	<div class="grid_container3">
+	<div class="grid-container-3">
 		{% for data in page.metadata %}
 		<p style="align-self: center;"><b>{{ data[0] }}:</b></p> <p style=" grid-column: span 2;">{{ data[1] }}</p>
 		{% endfor %}

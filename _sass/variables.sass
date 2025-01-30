@@ -1,0 +1,24 @@
+$color_primary: #F45E89
+$color_text: #671A3E
+$color_link: #EBCF45
+$color_bg: #FFF
+
+$color_dark_text: #FCEDC0
+$color_dark_bg: #000
+
+$font_size_normal: 1.25rem
+$font_size_mobile: 1.1rem
+$font_size_h1: 3rem
+$font_size_h2: 2.5rem
+$font_size_h3: 2rem
+
+$border_radius: 45px
+$border_radius_mobile: 32px
+
+@mixin size($size)
+	@media only screen and (max-width: $size)
+		@content
+
+@mixin dark
+	@media (prefers-color-scheme: dark)
+		@content

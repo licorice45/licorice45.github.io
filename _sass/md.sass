@@ -1,0 +1,109 @@
+/* Text
+
+p
+	color: $color_text
+	font-size: $font_size_normal
+	margin: 16px 0
+	text-align: center
+	
+	@include size(768px)
+		font-size: $font_size_mobile
+	
+	@include dark
+		color: $color_dark_text
+
+b
+	color: $color_primary
+
+/* Links
+
+a
+	color: $color_link
+	text-decoration: underline $color_link
+	
+	&.no-deco
+		color: inherit
+		text-decoration: inherit
+
+/* Headings
+
+h1
+	color: $color_text
+	font-size: $font_size_h1
+	margin: 0 0 32px
+	
+	@include dark
+		color: $color_dark_text
+	
+	&.parent-page
+		color: $color_primary
+		margin: 0
+	
+	&.header-separator
+		position: relative
+		&:before
+			content: ""
+			background: #F4C396
+			height: 8px
+			width: calc(100% + 64px)
+			position: absolute
+			left: 0
+			bottom: 0
+			margin: 0 -32px -16px
+			
+			@include size(768px)
+				width: calc(100% + 16px)
+				margin: 0 -8px -16px
+			
+			@include dark
+				background: #C35E72
+
+h2
+	color: $color_text
+	font-size: $font_size_h2
+	margin: 16px 0 32px
+	text-align: center
+	
+	@include dark
+		color: $color_dark_text
+	
+	&:before
+		content: "#"
+		color: $color_primary
+
+h3
+	color: $color_text
+	font-size: $font_size_h3
+	margin: 0 0 16px
+	text-align: center
+	
+	@include dark
+		color: $color_dark_text
+
+/* Images
+img
+	&.showcase
+		display: block
+		margin-left: auto
+		margin-right: auto
+		max-width: 100%
+		width: auto
+		max-height: 700px
+
+.gallery
+	float: none
+	height: 95%
+
+div.gallery
+	overflow-x: scroll
+	overflow-y: hidden
+	height: 300px
+	white-space: nowrap
+
+.colorize
+	&-pink
+		filter: invert(62%) sepia(40%) saturate(4987%) hue-rotate(308deg) brightness(97%) contrast(97%)
+	&-magenta
+		filter: invert(11%) sepia(54%) saturate(3103%) hue-rotate(310deg) brightness(97%) contrast(91%)
+		@include dark
+			filter: invert(99%) sepia(87%) saturate(561%) hue-rotate(319deg) brightness(101%) contrast(98%)

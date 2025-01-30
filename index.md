@@ -2,8 +2,6 @@
 title: Home
 layout: default
 ---
-{% include itembox_style.html %}
-
 <p id="splash">"missingno"</p>
 <script>
 	const splash = [
@@ -30,8 +28,8 @@ layout: default
 
 ## About
 
-<div class="grid_container3">
-<div class="panelbox mobile-span3">
+<div class="grid-container-3">
+<div class="card mobile-span-3">
 	<p>Yahoy !!<br>
 	I'm <b>licorice45</b>, I can be considered an artist and wannabe programmer!<br>
 	This website's main purpose to provide quick access to my links, projects and more.<br>
@@ -39,7 +37,7 @@ layout: default
 	Enjoy your stay !!</p>
 </div>
 
-<div class="itembox mobile-span3" onclick="location.href='/links';" onauxclick="window.open('/links');">
+<div class="itembox mobile-span-3" onclick="location.href='/links';" onauxclick="window.open('/links');">
 	<div class="ib-item4"><p>Links to Socials & More</p></div>
 </div>
 
@@ -49,7 +47,7 @@ layout: default
 </div>
 
 ## Check out
-<div class="grid_container3">
+<div class="grid-container-3">
 	<div class="itembox" onclick="location.href='/projects/marzipan';" onauxclick="window.open('/projects/marzipan');">
 		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/projects/thumbnail_Marzipan.png"></div>
 		<div class="ib-item5"><p><b>Featured Project</b><br>Marzipan</p></div>
@@ -66,7 +64,7 @@ layout: default
 
 
 ## Friend-sites
-<div class="grid_container2">
+<div class="grid-container-2">
 	{% for link in site.data.links_friends %}
 	<div class="itembox" onclick="location.href='{{ link.url }}';" onauxclick="window.open('{{ link.url }}');" style="--c: {{ link.bgcolor }}; background-image: url({{ link.image }});">
 		<div class="ib-item4"><p>{{ link.name }}</p></div>
