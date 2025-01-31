@@ -32,6 +32,7 @@ footer
 		height: 100px
 		width: 125%
 		animation: footerscroll 3s linear infinite
+		-webkit-animation: footerscroll 3s linear infinite
 		animation-direction: reverse
 		z-index: -2
 		position: fixed
@@ -39,6 +40,12 @@ footer
 		left: 0
 
 @keyframes "footerscroll"
+	0%
+		transform: translate(0)
+	100%
+		transform: translate(-74px)
+
+@-webkit-keyframes "footerscroll"
 	0%
 		transform: translate(0)
 	100%
