@@ -1,16 +1,6 @@
-# ChatGPT
+# Alexa Ai
 
-User-agent: ChatGPT-User
-Disallow: /
-
-# ChatGPT
-
-User-agent: GPTBot
-Disallow: /
-
-# Google Bard
-
-User-agent: Google-Extended
+User-agent: Amazonbot
 Disallow: /
 
 # ByteDance
@@ -18,9 +8,47 @@ Disallow: /
 User-agent: Bytespider
 Disallow: /
 
+# ChatGPT
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+# DuckDuckGo
+
+User-agent: DuckAssistBot
+Disallow: /
+
+# Facebook
+
+User-agent: FacebookBot
+Disallow: /
+
+# Google Bard
+
+User-agent: Google-Extended
+Disallow: /
+
+# ImagesiftBot
+
+User-agent: ImagesiftBot
+Disallow: /
+
+# img2dataset
+
+User-agent: img2dataset
+Disallow: /
+
 # omgili
 
 User-agent: omgili
+Disallow: /
+
+# Scrapy
+
+User-agent: Scrapy
 Disallow: /
 
 # Siri Ai
@@ -28,12 +56,12 @@ Disallow: /
 User-agent: Applebot
 Disallow: /
 
-# Alexa Ai
-
-User-agent: Amazonbot
-Disallow: /
-
 # Common Crawl
 
 User-agent: CCBot
 Disallow: /
+
+# Other
+
+User-agent: *
+DisallowAITraining: /
