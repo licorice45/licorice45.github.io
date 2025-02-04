@@ -18,9 +18,8 @@ layout: default
 <h2>Links</h2>
 <p>
 {% for link in page.links %}
-	<div class="itembox" onclick="location.href='{{ link[1] }}';" onauxclick="window.open('{{ link[1] }}');">
-		<div class="ib-item4"><p>{{ link[0] }}</p></div>
-	</div>
+	{% capture url %}{{ link[1] }}{% endcapture %}  {% capture title %}{{ link[0] }}{% endcapture %}
+	{% include itembox.html url=url item5=title %}
 {% endfor %}
 </p>
 </div>

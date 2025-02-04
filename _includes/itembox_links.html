@@ -1,5 +1,2 @@
-<div class="itembox" style="--c: {{ link.bgcolor }};" onclick="location.href='{{ link.url }}';" onauxclick="window.open('{{ link.url }}');">
-	<div class="ib-item4"><img class="itembox-thumb" src="{{ link.image }}" width="150"></div>
-	<div class="ib-item5 unhover"><p>{{ link.name }}</p></div>
-	<div class="ib-item5 hover"><p>{{ link.hover }}</p></div>
-</div>
+{% capture url %}{{ link.url }}{% endcapture %} {% capture color %}{{ link.bgcolor }}{% endcapture %} {% capture image %}{{ link.image }}{% endcapture %} {% capture unhover %}{{ link.name }}{% endcapture %} {% capture hover %}{{ link.hover }}{% endcapture %}
+{% include itembox.html url=url color=color item4=image item5-hover=hover item5-unhover=unhover %}

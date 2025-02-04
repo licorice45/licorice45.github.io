@@ -1,0 +1,8 @@
+---
+title: Projects
+layout: default
+---
+{% for project in site.projects %}
+{% capture url %}{{ project.url }}{% endcapture %} {% capture image %}/assets/sprites/projects/thumbnail_{{ project.title }}.png{% endcapture %} {% capture title %}{{ project.title }}{% endcapture %} {% capture desc %}{{ project.category }} • {{ project.year }}{% endcapture %}
+{% include itembox.html url=url item1=image item2=title item3=desc %}
+{% endfor %}

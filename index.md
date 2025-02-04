@@ -2,29 +2,7 @@
 title: Home
 layout: default
 ---
-<p id="splash">"missingno"</p>
-<script>
-	const splash = [
-		"Removed Herobrine",
-		"I love Pesto mmm yummy",
-		"45",
-		"Yo, Angelo",
-		"You should watch Mob Psycho 100 rn",
-		"This site was made using notepad",
-		"Press THROW and then JUMP to throw Salmon Eggs further",
-		"Eh? Is that a... TURRÓN?!",
-		"Why are oranges called orange but apricots aren't called orange 🤯",
-		"I can't stop procrastinating, HELP",
-		"Searing Shells by Kojimkj, best stage",
-		"Let the shackles be released!",
-		"I... am licorice",
-		"Awesome orb of awesomeness",
-		"Give me a drink, bartender"
-	];
-	
-	const rng = Math.floor(Math.random() * splash.length);
-	document.getElementById('splash').innerHTML = "<b>\"" + splash[rng] + "\"";
-</script>
+{% include splash_text.html %}
 
 ## About
 
@@ -37,9 +15,7 @@ layout: default
 	Enjoy your stay !!</p>
 </div>
 
-<div class="itembox mobile-span-3" onclick="location.href='/links';" onauxclick="window.open('/links');">
-	<div class="ib-item4"><p>Links to Socials & More</p></div>
-</div>
+{% include itembox.html url="/links" class="mobile-span-3" item5="Links to Socials & More" %}
 
 <div class="mobile-hide" style="grid-column: 3; grid-row: 1 / span 2; margin: auto;">
 	<img src="/assets/sprites/licorice_fall.png">
@@ -48,26 +24,16 @@ layout: default
 
 ## Check out
 <div class="grid-container-3">
-	<div class="itembox" onclick="location.href='/projects/marzipan';" onauxclick="window.open('/projects/marzipan');">
-		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/projects/thumbnail_Marzipan.png"></div>
-		<div class="ib-item5"><p><b>Featured Project</b><br>Marzipan</p></div>
-	</div>
-	<div class="itembox" onclick="location.href='/projects';" onauxclick="window.open('/projects');">
-		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/thumbnail_projects.png"></div>
-		<div class="ib-item5"><p>Other Projects</p></div>
-	</div>
-	<div class="itembox" onclick="location.href='/ocs';" onauxclick="window.open('/ocs');">
-		<div class="ib-item4"><img class="itembox-thumb" src="/assets/sprites/thumbnail_ocs.png"></div>
-		<div class="ib-item5"><p>Original Characters</p></div>
-	</div>
+	{% include itembox.html url="/projects/marzipan" item4="/assets/sprites/projects/thumbnail_Marzipan.png" item5="<b>Featured Project</b><br>Marzipan" %}
+	{% include itembox.html url="/projects" item4="/assets/sprites/thumbnail_projects.png" item5="Other Projects" %}
+	{% include itembox.html url="/ocs" item4="/assets/sprites/thumbnail_ocs.png" item5="Original Characters" %}
 </div>
 
 
 ## Friend-sites
 <div class="grid-container-2">
 	{% for link in site.data.links_friends %}
-	<div class="itembox" onclick="location.href='{{ link.url }}';" onauxclick="window.open('{{ link.url }}');" style="--c: {{ link.bgcolor }}; background-image: url({{ link.image }});">
-		<div class="ib-item4"><p>{{ link.name }}</p></div>
-	</div>
+		{% capture url %}{{ link.url }}{% endcapture %} {% capture color %}{{ link.bgcolor }}{% endcapture %} {% capture bg-image %}{{ link.image }}{% endcapture %} {% capture content %}{{ link.name }}{% endcapture %}
+		{% include itembox.html url=url color=color bg-image=bg-image item5=content %}
 	{% endfor %}
 </div>
