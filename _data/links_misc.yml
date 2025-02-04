@@ -15,5 +15,5 @@
 - name: Planet Minecraft
   hover: Minceraft !
   url: https://www.planetminecraft.com/member/licorice45/
-  image: https://static.planetminecraft.com/files/avatar/3_1.png
+  image: /assets/sprites/links/pmc-logo.png
   bgcolor: '#0D74D3'
