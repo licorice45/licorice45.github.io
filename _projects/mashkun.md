@@ -1,7 +1,5 @@
 ---
 title: Mashkun Launcher
-layout: project
-header: projects
 desc: Simple interface for launching Video Games
 category: Application
 year: 2024

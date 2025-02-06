@@ -1,7 +1,5 @@
 ---
 title: Justin Case
-layout: oc
-header: characters
 desc: Total Surreal Survivalist Nerd
 metadata: {"Species": "Human", "Pronouns": "He/Him", "Birthday": "17.09", "Height": "164cm"}
 traits: ["Nerdy", "Scaredy", "Reliable"]

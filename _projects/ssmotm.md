@@ -1,7 +1,5 @@
 ---
 title: Skullsplitter Merge of the Macabre
-layout: project
-header: projects
 desc: A puzzle game about merging and splitting objects to change their size
 category: Game Jam Entry
 year: 2024

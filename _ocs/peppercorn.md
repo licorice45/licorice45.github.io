@@ -1,7 +1,5 @@
 ---
 title: Peppercorn
-layout: oc
-header: characters
 desc: Self-proclaimed ruler of time
 metadata: {"Species": "Corrupted Human", "Pronouns": "She/They", "Birthday": "14.01", "Height": "175 cm"}
 traits: ["Cynical", "Unforgiving", "Determined"]

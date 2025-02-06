@@ -1,7 +1,5 @@
 ---
 title: Devanna
-layout: oc
-header: characters
 desc: Devoted to the Moon
 metadata: {"Species": "Runa", "Pronouns": "Up to interpretation", "Birthday": "20.07" , "Height": "186 cm"}
 traits: ["Loyal", "Stubborn", "Altruistic"]

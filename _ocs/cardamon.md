@@ -1,7 +1,5 @@
 ---
 title: Cardamon
-layout: oc
-header: characters
 desc: Crazed Observer
 metadata: {"Species": "Human", "Pronouns": "She/Her", "Birthday": "09.05", "Height": "168 cm"}
 traits: ["Insane", "Nervous", "Lazy"]

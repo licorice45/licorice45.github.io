@@ -1,7 +1,5 @@
 ---
 title: Anise
-layout: oc
-header: characters
 desc: Ancient demigod warchief
 metadata: {"Species": "Demigod", "Pronouns": "Up to interpretation", "Birthday": "???", "Height": "226 cm"}
 traits: ["Scary", "Evil", "Manipulative"]

@@ -1,7 +1,5 @@
 ---
 title: Cinnamon
-layout: oc
-header: characters
 desc: Flora Brawler
 metadata: {"Species": "Corrupted Human", "Pronouns": "Up to interpretation", "Birthday": "22.09", "Height": "154 cm"}
 traits: ["Muscehead", "Brave", "Passionate"]

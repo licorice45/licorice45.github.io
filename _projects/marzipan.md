@@ -1,7 +1,5 @@
 ---
 title: Marzipan
-layout: project
-header: projects
 desc: Icon pack for android featuring colorful drawn adaptive icons
 category: Theme
 year: 2024

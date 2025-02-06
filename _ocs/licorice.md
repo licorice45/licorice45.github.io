@@ -1,7 +1,5 @@
 ---
 title: Licorice
-layout: oc
-header: characters
 desc: My main Sona
 metadata: {"Species": "Human? Runa?", "Pronouns": "Up to interpretation", "Birthday": "26.07", "Height": "170 cm"}
 traits: ["Air-headed", "Curious", "Carefree"]

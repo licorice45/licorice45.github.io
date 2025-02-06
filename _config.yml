@@ -5,5 +5,23 @@ url: https://licorice45.github.io
 collections:
   ocs:
     output: true
+    permalink: /:collection/:name/
   projects:
     output: true
+    permalink: /:collection/:name/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "ocs"
+    values:
+      layout: "oc"
+      header: "characters"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      header: "projects"
