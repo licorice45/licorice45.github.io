@@ -16,10 +16,7 @@ layout: default
 {% endif %}
 </div>
 <h2>Links</h2>
-<p>
 {% for link in page.links %}
 	{% capture url %}{{ link[1] }}{% endcapture %}  {% capture title %}{{ link[0] }}{% endcapture %}
 	{% include itembox.html url=url item5=title %}
 {% endfor %}
-</p>
-</div>

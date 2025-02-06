@@ -5,10 +5,10 @@ url: https://licorice45.github.io
 collections:
   ocs:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:collection/:name
   projects:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:collection/:name
 
 defaults:
   -

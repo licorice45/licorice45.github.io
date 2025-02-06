@@ -1,8 +1,8 @@
 <div class="itembox {{ include.class }}" onclick="location.href='{{ include.url }}';" onauxclick="window.open('{{ include.url }}');" style="{% if include.color %}--c: {{ include.color }};{% endif %} {% if include.bg-image %}background-image: url({{ include.bg-image }});{% endif %}">
-	{% if include.item1 %}<div class="ib-item1"><img class="itembox-thumb" src='{{ include.item1 }}'></div>{% endif %}
+	{% if include.item1 %}<div class="ib-item1"><img class="itembox-thumb" src='{{ include.item1 }}' alt=""></div>{% endif %}
 	{% if include.item2 %}<div class="ib-item2"><h3><a href="{{ include.url }}" class="no-deco">{{ include.item2 }}</a></h3></div>{% endif %}
 	{% if include.item3 %}<div class="ib-item3"><p>{{ include.item3 }}</p></div>{% endif %}
-	{% if include.item4 %}<div class="ib-item4"><img class='itembox-thumb' src='{{ include.item4 }}'></div>{% endif %}
+	{% if include.item4 %}<div class="ib-item4"><img class='itembox-thumb' src='{{ include.item4 }}' alt=""></div>{% endif %}
 	{% if include.item5 %}<div class="ib-item5"><p><a href="{{ include.url }}" class="no-deco">{{ include.item5 }}</a></p></div>{% endif %}
 	{% if include.item5-hover %}<div class="ib-item5 hover"><p>{{ include.item5-hover }}</p></div>{% endif %}
 	{% if include.item5-unhover %}<div class="ib-item5 unhover"><p><a href="{{ include.url }}" class="no-deco">{{ include.item5-unhover }}</a></p></div>{% endif %}
