@@ -1,14 +1,22 @@
-<div class="grid-container-2 card">
-	<div>
-		<h3>Traits</h3>
+<div class="card grid-container-2">
+	<table>
+		<tr>
+			<th><h3>Traits</h3></th>
+		</tr>
 		{% for trait in page.traits %}
-		<p>{{ trait }}</p>
+			<tr>
+				<td><p>{{ trait }}</p></td>
+			</tr>
 		{% endfor %}
-	</div>
-	<div>
-		<h3>Likes</h3>
+	</table>
+	<table>
+		<tr>
+			<th><h3>Likes</h3></th>
+		</tr>
 		{% for like in page.likes %}
-		<p><b>{{ like[0] }}:</b> {{ like[1] }}</p>
+			<tr>
+				<td><p><b>{{ like[0] }}:</b>  {{ like[1] }}</p></td>
+			</tr>
 		{% endfor %}
-	</div>
+	</table>
 </div>

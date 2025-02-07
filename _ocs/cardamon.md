@@ -11,7 +11,7 @@ Cardamon went mad after some time after finding out her powers. She wanders arou
 {% include oc_traits_likes.html %}
 
 ## Abilities
-Can regenerate swiftly.
+Her body can regenerate swiftly, however she still feels the pain. This way she can survive many types of otherwise lethal damage, but she isn't immortal.
 
 ## Relationships
 ### [Licorice](/ocs/licorice) & [Cinnamon](/ocs/cinnamon)

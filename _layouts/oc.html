@@ -2,18 +2,25 @@
 layout: default
 header: Characters
 ---
-<div class="infobox">
-	<h3>{{ page.title }}</h3>
-	<img src="/assets/sprites/ocs/thumbnail_{{ page.title | downcase }}.png" alt="">
-	<div class="grid-container-3">
-		{% for data in page.metadata %}
-		<p style="align-self: center;"><b>{{ data[0] }}:</b></p> <p style=" grid-column: span 2;">{{ data[1] }}</p>
-		{% endfor %}
+<table class="infobox">
+	<tr>
+		<th colspan="2"><h3>{{ page.title }}</h3></th>
+	</tr>
+	<tr>
+		<td colspan="2"><img src="/assets/sprites/ocs/thumbnail_{{ page.title | downcase }}.png" alt=""></td>
+	</tr>
+	{% for data in page.metadata %}
+	<tr>
+		<td><p style="align-self: center;"><b>{{ data[0] }}:</b></p></td>
+		<td><p style=" grid-column: span 2;">{{ data[1] }}</p></td>
+	</tr>
+	{% endfor %}
 	</div>
-</div>
+</table>
 
-
+<article>
 {{ content }}
 
 <h2>Reference Sheet</h2>
 <img class="showcase" src="/assets/sprites/ocs/ref_{{ page.title | downcase }}.png" alt="{{ page.title }} reference sheet">
+</article>

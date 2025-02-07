@@ -3,7 +3,7 @@
 {% include header.html %}
     <div class="body">
 {% if page.header != null %}
-	<h1 class="parent-page"><a class="no-deco" href="{% for link in site.data.header_links %}{% if link.name == page.header %}{{ link.url }}{% endif %}{% endfor %}"><img class="colorize-pink" height="34" src="/assets/sprites/symbol-{{ page.header }}.png" alt=""> {{ page.header | capitalize }}/</a></h1>
+	<h1 class="parent-page" aria-hidden="true"><a class="no-deco" href="{% for link in site.data.header_links %}{% if link.name == page.header %}{{ link.url }}{% endif %}{% endfor %}"><img class="colorize-pink" height="34" src="/assets/sprites/symbol-{{ page.header }}.png" alt=""> {{ page.header | capitalize }}/</a></h1>
     <h1 class="header-separator">{{ page.title }}</h1>
 {% else %}
 	<h1 class="header-separator"><img class="colorize-magenta" height="34" src="/assets/sprites/symbol-{{ page.title | downcase }}.png" alt=""> {{ page.title }}</h1>

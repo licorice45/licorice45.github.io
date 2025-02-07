@@ -44,12 +44,12 @@ div
 		@include dark
 			background-color: $color_dark_bg
 	
-	&.infobox
+.infobox
 		position: relative
 		width: 364px
 		border-radius: 45px
 		padding: 16px
-		margin: -64px -164px 0 16px
+		margin: -64px -164px 0 32px
 		float: right
 		background-color: WHITE
 		
@@ -59,7 +59,8 @@ div
 			margin: auto
 		
 		@include size(1220px)
-			width: calc(100% - 52px)
+			width: calc(100% - 32px)
+			margin: 8px auto !important
 			position: inherit
 			float: inherit
 			@include card
