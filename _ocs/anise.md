@@ -18,3 +18,6 @@ Has incredible katana skills, can both control thunder and zap around the place.
 Must sacrifice these little runas to become more powerful.
 ### [Cinnamon](/ocs/cinnamon) & [Peppercorn](/ocs/peppercorn)
 Pesky enemies that are asking for punishment...
+
+## Reference Sheet
+{% include oc_gallery.html %}

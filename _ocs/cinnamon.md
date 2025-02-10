@@ -22,3 +22,6 @@ Rivals. The two often go head to head making most of their abilities.
 Worst enemies, tries to protect Licorice from Anise and ruin the evil plans of the demigod.
 ### [Cardamon](/ocs/cardamon)
 Is often annoyed at and dismissive of her, but tries their best to keep their temper low.
+
+## Reference Sheet
+{% include oc_gallery.html %}

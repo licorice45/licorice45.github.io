@@ -18,3 +18,6 @@ Their body posseses a unique trait of low gravity on earth that matches the one 
 Can relate to Peppecorn's issues and quickly becomes teammates with her.
 ### [Licorice](/ocs/licorice)
 Is terrified and mentally tormented by existance of everything Licorice stands for. Tries their best to fend them off.
+
+## Reference Sheet
+{% include oc_gallery.html %}

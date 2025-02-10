@@ -20,3 +20,6 @@ Absolutely hates both of them and devotes life to taking them down.
 Can relate to Devanna’s issues and quickly becomes teammates with them.
 ### [Cardamon](/ocs/cardamon)
 Feels bad for her but gave up on trying to "fix" her
+
+## Reference Sheet
+{% include oc_gallery.html %}

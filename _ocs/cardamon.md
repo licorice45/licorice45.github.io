@@ -18,3 +18,6 @@ Her body can regenerate swiftly, however she still feels the pain. This way she 
 Enjoys their dynamic and often sticks close nearby
 ### [Peppercorn](/ocs/peppercorn)
 Holds high respect to her but also thinks she is funny and often laughs at Peppercorn's expense
+
+## Reference Sheet
+{% include oc_gallery.html %}

@@ -15,3 +15,6 @@ Great at killing zombies. Uses Linux Arch btw.
 
 ## Relationships
 Lmao
+
+## Reference Sheet
+{% include oc_gallery.html %}

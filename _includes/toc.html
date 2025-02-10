@@ -1,0 +1,15 @@
+<div class="toc">
+<h3>Table of contents</h3>
+<ol>
+	{% assign points = page.content | strip | split: '<h2' %}
+	<li><a href="#">{{ page.title }}</a></li>
+	{% for point in points %}
+		{% if point contains '</h2>' %}
+			{% assign point_strip = point | split: '>' %}
+			{% assign point_strip = point_strip[1] | split: '</h2' %}
+			{% assign point_strip = point_strip[0] %}
+			<li><a href="#{{ point_strip | slugify }}">{{ point_strip }}</a></li>
+		{% endif %}
+	{% endfor %}
+</ol>
+</div>

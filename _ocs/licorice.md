@@ -20,3 +20,6 @@ Best friends. Cinnamon looks over and trains Licorice and they are almost always
 Licorice stumbles upon Devanna one night in a open grass field and is greatly intrigued as it's finally a person similar to them. Wants to learn more at all cost.
 ### [Cardamon](/ocs/cardamon)
 Licorice doesn't minds her around and is even intrigued by her "uniqueness".
+
+## Reference Sheet
+{% include oc_gallery.html %}
