@@ -4,7 +4,7 @@ desc: Total Surreal Survivalist Nerd
 metadata: {"Species": "Human", "Pronouns": "He/Him", "Birthday": "17.09", "Height": "164cm"}
 traits: ["Nerdy", "Scaredy", "Reliable"]
 likes: {"Food": "Tofu", "Music": "Video game music", "Color": "#800869"}
-order: 6
+order: 7
 ---
 Justin is a self aware but scaredy traveler with a knack for surviving ultra specific scenarios.
 

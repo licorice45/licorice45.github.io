@@ -18,6 +18,8 @@ Can stop time at will for however long, but can't manipulate objects at all besi
 Absolutely hates both of them and devotes life to taking them down.
 ### [Devanna](/ocs/devanna)
 Can relate to Devanna’s issues and quickly becomes teammates with them.
+### [Vanilla](/ocs/vanilla)
+Despite clashing personalities Peppercorn understands Vanilla's situation and tries to be helpful, eventually growing pretty attached to her presence
 ### [Cardamon](/ocs/cardamon)
 Feels bad for her but gave up on trying to "fix" her
 

@@ -4,7 +4,7 @@ desc: Ancient demigod warchief
 metadata: {"Species": "Demigod", "Pronouns": "Up to interpretation", "Birthday": "???", "Height": "226 cm"}
 traits: ["Scary", "Evil", "Manipulative"]
 likes: {"Food": "Sunlight", "Music": "War Drums", "Color": "Red"}
-order: 4
+order: 6
 ---
 An ancient warchief and a demigod of thunder revived by red topaz corruption. Adores inducing fear in their targets before finishing them off and doesn't pull any punches.
 
