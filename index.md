@@ -34,6 +34,6 @@ layout: default
 <div class="grid-container-2">
 	{% for link in site.data.links_friends %}
 		{% capture url %}{{ link.url }}{% endcapture %} {% capture color %}{{ link.bgcolor }}{% endcapture %} {% capture bg-image %}{{ link.image }}{% endcapture %} {% capture content %}{{ link.name }}{% endcapture %}
-		{% include itembox.html url=url color=color bg-image=bg-image item5=content %}
+		{% include friend.html href=url color=color bg-image=bg-image name=content %}
 	{% endfor %}
 </div>
