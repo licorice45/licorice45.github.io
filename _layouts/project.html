@@ -18,5 +18,5 @@ layout: default
 <h2>Links</h2>
 {% for link in page.links %}
 	{% capture url %}{{ link[1] }}{% endcapture %}  {% capture title %}{{ link[0] }}{% endcapture %}
-	{% include itembox.html url=url item5=title %}
+	{% include button.html url=url content=title %}
 {% endfor %}

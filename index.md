@@ -15,7 +15,7 @@ layout: default
 	Enjoy your stay !!</p>
 </div>
 
-{% include itembox.html url="/links" class="mobile-span-3" item5="Links to Socials & More" %}
+{% include button.html url="/links" class="mobile-span-3" content="Links to Socials & More" %}
 
 <div class="mobile-hide" style="grid-column: 3; grid-row: 1 / span 2; margin: auto;">
 	<img src="/assets/sprites/licorice_fall.png">
