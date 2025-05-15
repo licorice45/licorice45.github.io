@@ -24,9 +24,9 @@ layout: default
 
 ## Check out
 <div class="grid-container-3">
-	{% include itembox.html url="/projects/marzipan" item4="/assets/sprites/projects/thumbnail_Marzipan.png" item5="<b>Featured Project</b><br>Marzipan" %}
-	{% include itembox.html url="/projects" item4="/assets/sprites/thumbnail_projects.png" item5="Other Projects" %}
-	{% include itembox.html url="/ocs" item4="/assets/sprites/thumbnail_ocs.png" item5="Original Characters" %}
+	{% include squarelink.html url="/projects/marzipan" image="/assets/sprites/projects/thumbnail_Marzipan.png" name="<b>Featured Project</b><br>Marzipan" %}
+	{% include squarelink.html url="/projects" image="/assets/sprites/thumbnail_projects.png" name="Other Projects" %}
+	{% include squarelink.html url="/ocs" image="/assets/sprites/thumbnail_ocs.png" name="Original Characters" %}
 </div>
 
 

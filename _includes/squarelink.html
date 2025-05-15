@@ -1,0 +1,5 @@
+<a class="itembox no-deco" href="{{ include.url }}" {% if include.bgcolor %} style="--c: {{ include.bgcolor }}" {%endif%}>
+	<div class="ib-item4"><img class='itembox-thumb' src='{{ include.image }}' alt=""></div>
+	<div class="ib-item5 {%if include.hover%}unhover{%endif%}"><p>{{ include.name }}</p></div>
+	{%if include.hover%}<div class="ib-item5 hover"><p>{{ include.hover }}</p></div>{%endif%}
+</a>

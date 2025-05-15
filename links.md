@@ -11,7 +11,7 @@ layout: default
   {% assign url = link.url %}
   {% assign image = link.image %}
   {% assign bgcolor = link.bgcolor %}
-  {% include social.html name=name hover=hover url=url image=image bgcolor=bgcolor %}
+  {% include squarelink.html name=name hover=hover url=url image=image bgcolor=bgcolor %}
 {% endfor %}
 </div>
 ## Misc
@@ -22,6 +22,6 @@ layout: default
   {% assign url = link.url %}
   {% assign image = link.image %}
   {% assign bgcolor = link.bgcolor %}
-  {% include social.html name=name hover=hover url=url image=image bgcolor=bgcolor %}
+  {% include squarelink.html name=name hover=hover url=url image=image bgcolor=bgcolor %}
 {% endfor %}
 </div>
