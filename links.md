@@ -6,12 +6,22 @@ layout: default
 ## Main
 <div class="grid-container-3">
 {% for link in site.data.links_main %}
-{% include itembox_links.html %}
+  {% assign name = link.name %}
+  {% assign hover = link.hover %}
+  {% assign url = link.url %}
+  {% assign image = link.image %}
+  {% assign bgcolor = link.bgcolor %}
+  {% include social.html name=name hover=hover url=url image=image bgcolor=bgcolor %}
 {% endfor %}
 </div>
 ## Misc
 <div class="grid-container-3">
 {% for link in site.data.links_misc %}
-{% include itembox_links.html %}
+  {% assign name = link.name %}
+  {% assign hover = link.hover %}
+  {% assign url = link.url %}
+  {% assign image = link.image %}
+  {% assign bgcolor = link.bgcolor %}
+  {% include social.html name=name hover=hover url=url image=image bgcolor=bgcolor %}
 {% endfor %}
 </div>
