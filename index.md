@@ -15,7 +15,7 @@ layout: default
 	Enjoy your stay !!</p>
 </div>
 
-{% include itembox.html url="/links" class="mobile-span-3" item5="Links to Socials & More" %}
+{% include button.html url="/links" class="mobile-span-3" content="Links to Socials & More" %}
 
 <div class="mobile-hide" style="grid-column: 3; grid-row: 1 / span 2; margin: auto;">
 	<img src="/assets/sprites/licorice_fall.png">
@@ -24,9 +24,9 @@ layout: default
 
 ## Check out
 <div class="grid-container-3">
-	{% include itembox.html url="/projects/marzipan" item4="/assets/sprites/projects/thumbnail_Marzipan.png" item5="<b>Featured Project</b><br>Marzipan" %}
-	{% include itembox.html url="/projects" item4="/assets/sprites/thumbnail_projects.png" item5="Other Projects" %}
-	{% include itembox.html url="/ocs" item4="/assets/sprites/thumbnail_ocs.png" item5="Original Characters" %}
+	{% include squarelink.html url="/projects/marzipan" image="/assets/sprites/projects/thumbnail_Marzipan.png" name="<b>Featured Project</b><br>Marzipan" %}
+	{% include squarelink.html url="/projects" image="/assets/sprites/thumbnail_projects.png" name="Other Projects" %}
+	{% include squarelink.html url="/ocs" image="/assets/sprites/thumbnail_ocs.png" name="Original Characters" %}
 </div>
 
 
@@ -34,6 +34,6 @@ layout: default
 <div class="grid-container-2">
 	{% for link in site.data.links_friends %}
 		{% capture url %}{{ link.url }}{% endcapture %} {% capture color %}{{ link.bgcolor }}{% endcapture %} {% capture bg-image %}{{ link.image }}{% endcapture %} {% capture content %}{{ link.name }}{% endcapture %}
-		{% include itembox.html url=url color=color bg-image=bg-image item5=content %}
+		{% include friend.html href=url color=color bg-image=bg-image name=content %}
 	{% endfor %}
 </div>
