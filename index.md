@@ -23,10 +23,9 @@ layout: default
 </div>
 
 ## Check out
-<div class="grid-container-3">
-	{% include squarelink.html url="/projects/marzipan" image="/assets/sprites/projects/thumbnail_Marzipan.png" name="<b>Featured Project</b><br>Marzipan" %}
+<div class="grid-container-2">
+	{% include squarelink.html url="https://artfight.net/~licorice45" image="/assets/sprites/links/artfight-logo.png" name="<b>Featured</b><br>Art Fight" %}
 	{% include squarelink.html url="/projects" image="/assets/sprites/thumbnail_projects.png" name="Other Projects" %}
-	{% include squarelink.html url="/ocs" image="/assets/sprites/thumbnail_ocs.png" name="Original Characters" %}
 </div>
 
 
